@@ -3,6 +3,9 @@
 This is a small script to search through the many x86 SIMD intrinsics which hopefully is less janky than the Intel website.
 Also it doesn't suffer from outages any time they update their XML.
 
+
+![Usage example](example_usage.png)
+
 ## Usage
 
 The script is an interactive terminal based search engine. Entering a keyword will give you a list of intrinsics which contain the keyword as part of their name.
