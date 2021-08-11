@@ -22,8 +22,14 @@ The number of results shown can be adjusted using `/max`
 
 More commands are shown at startup or when using `/help`
 
+## Blacklisting
+
 There are two different result blacklists you can change in the script.
+
 `cpuid_blacklist` is set to `['AVX512', 'KNCNI']` by default as those are by far not as common and contain a rather large amount of intrinsics that flood the results list.
+
 `techid_blacklist` is set to `['SVML']` by default as those instructions are actually pseudo-instructions only implemented by the intel compiler.
+
+## Updating the XML file
 
 You can find the XML file containing the raw data on the intel site if you want to get access to the latest instruction set. However it seems that they changed the XML structure/names so you might have to modify this script...
